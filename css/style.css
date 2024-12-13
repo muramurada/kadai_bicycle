@@ -17,7 +17,7 @@
     width: 100%;
     object-fit: cover;
 }
-.about {
+.about-img {
     border-radius: 50%;
 }
 h2 {
@@ -43,7 +43,7 @@ h2 span {
     width: 100px;
     margin-left: 50px;
  }
- .ul0 {
+ .gnav {
     display: flex;
     width: 150px;
     justify-content: space-between;
@@ -59,26 +59,26 @@ h2 span {
     padding-bottom: 10px;
     /* border: 1px solid black; */
  }
-.ul1 {
+.about {
     display: flex;
     width: 60%;
     margin: 0 auto;
     gap: 20px;
     justify-content: space-between;
 }
-.ul2 {
+.bicycle {
     display: flex;
-    /* width: 80%; */
+    width: 90%;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 20px;
     margin-bottom: 100px;
 }
-.ul2 h3 {
+.bicycle h3 {
     text-align: center;
     margin: 20px 0;
 }
-.ul2 p {
+.bicycle p {
     margin-bottom: 30px;
 }
 footer {
@@ -98,7 +98,7 @@ footer {
     /* .div1 {
         margin: 0 auto;
     } */
-    .ul1 {
+    .about {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -107,7 +107,7 @@ footer {
         gap: 20px;
         justify-content: space-between;
     }
-    .ul1 .about {
+    .about .about-img {
         width: 30%;
         height: auto;
         margin: 0 auto;
@@ -115,7 +115,7 @@ footer {
     .ul1_li {
         margin: 0 20px;
     }
-    .ul2 {
+    .bicycle {
         display: flex;
         flex-direction: column;
         /* width: 80%; */
