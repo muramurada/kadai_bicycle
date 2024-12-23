@@ -29,17 +29,7 @@ h2 span {
     border-bottom: 1px solid grey;
     padding-bottom: 3px;
 }
-/* h2::after {
-    content: "";
-    display: block;
-    width: 80px;
-    height: 2px;
-    background: grey;
-    margin-top: 50px;
-    margin: 0 auto;
-} */
- 
- .profile {
+.profile {
     width: 100px;
     margin-left: 50px;
  }
@@ -48,8 +38,6 @@ h2 span {
     width: 150px;
     justify-content: space-between;
     margin-right: 50px;
-    /* align-items: right; */
-    /* margin: 10px 20px; */
  }
  .wrap {
     display: flex;
@@ -57,7 +45,6 @@ h2 span {
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    /* border: 1px solid black; */
  }
 .about {
     display: flex;
@@ -95,9 +82,6 @@ footer {
     .mainvisual {
         height: 600px;
     }
-    /* .div1 {
-        margin: 0 auto;
-    } */
     .about {
         display: flex;
         flex-direction: column;
@@ -118,7 +102,6 @@ footer {
     .bicycle {
         display: flex;
         flex-direction: column;
-        /* width: 80%; */
         margin: 0 20px;
         justify-content: space-between;
         gap: 20px;
